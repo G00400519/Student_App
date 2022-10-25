@@ -5,6 +5,19 @@ public class Student_App {
     private String email;
     private String course;
 
+    public Student_App() {
+    }
+
+    public Student_App(String name, String email, String course) {
+        this.name = name;
+        this.email = email;
+        this.course = course;
+    }
+
+    public Student_App(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
